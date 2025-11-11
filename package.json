@@ -1,0 +1,27 @@
+{
+  "name": "tasker-logging",
+  "version": "1.0.0",
+  "description": "Consolidated logging service utility for sequential-ecosystem packages",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./levels": "./src/levels.js",
+    "./logger": "./src/logger.js"
+  },
+  "scripts": {
+    "test": "node tests/test-logger.js"
+  },
+  "keywords": [
+    "tasker",
+    "logging",
+    "logger",
+    "utility",
+    "singleton"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
