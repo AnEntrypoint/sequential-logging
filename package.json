@@ -1,5 +1,5 @@
 {
-  "name": "tasker-logging",
+  "name": "sequential-logging",
   "version": "1.0.0",
   "description": "Consolidated logging service utility for sequential-ecosystem packages",
   "type": "module",
@@ -13,7 +13,7 @@
     "test": "node tests/test-logger.js"
   },
   "keywords": [
-    "tasker",
+    "sequential",
     "logging",
     "logger",
     "utility",
