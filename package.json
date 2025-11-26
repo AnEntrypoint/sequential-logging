@@ -1,6 +1,6 @@
 {
   "name": "sequential-logging",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Consolidated logging service utility for sequential-ecosystem packages",
   "type": "module",
   "main": "src/index.js",
@@ -9,9 +9,9 @@
     "./levels": "./src/levels.js",
     "./logger": "./src/logger.js"
   },
-  "scripts": {
-    "test": "node tests/test-logger.js"
-  },
+  "files": [
+    "src"
+  ],
   "keywords": [
     "sequential",
     "logging",
@@ -19,8 +19,15 @@
     "utility",
     "singleton"
   ],
-  "author": "",
+  "author": "lanmower",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnEntrypoint/sequential-logging.git"
+  },
+  "dependencies": {
+    "sequential-utils": "^1.0.0"
+  },
   "engines": {
     "node": ">=18.0.0"
   }

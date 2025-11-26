@@ -1,5 +1,5 @@
 import { LOG_LEVELS, LEVEL_NAMES } from './levels.js';
-import { nowISO } from 'tasker-utils/timestamps';
+import { nowISO } from 'sequential-utils/timestamps';
 
 class Logger {
   constructor() {
