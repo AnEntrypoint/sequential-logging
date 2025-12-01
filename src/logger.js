@@ -1,7 +1,7 @@
 import { LOG_LEVELS, LEVEL_NAMES } from './levels.js';
 import { nowISO } from 'sequential-utils/timestamps';
 
-class Logger {
+export class Logger {
   constructor() {
     this.level = LOG_LEVELS.INFO;
     this.context = {};
@@ -156,5 +156,3 @@ class Logger {
     return childLogger;
   }
 }
-
-export default Logger;
