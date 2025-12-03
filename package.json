@@ -1,9 +1,12 @@
 {
-  "name": "sequential-logging",
+  "name": "@sequential/sequential-logging",
   "version": "1.0.3",
   "description": "Consolidated logging service utility for sequential-ecosystem packages",
   "type": "module",
   "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/**/*.js"
+  },
   "exports": {
     ".": "./src/index.js",
     "./levels": "./src/levels.js",
@@ -26,7 +29,7 @@
     "url": "https://github.com/AnEntrypoint/sequential-logging.git"
   },
   "dependencies": {
-    "sequential-utils": "^1.0.0"
+    "@sequential/sequential-utils": "^1.0.0"
   },
   "engines": {
     "node": ">=18.0.0"

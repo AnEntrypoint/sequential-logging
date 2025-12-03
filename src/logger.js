@@ -1,5 +1,5 @@
 import { LOG_LEVELS, LEVEL_NAMES } from './levels.js';
-import { nowISO } from 'sequential-utils/timestamps';
+import { nowISO } from '@sequential/sequential-utils/timestamps';
 
 export class Logger {
   constructor() {
